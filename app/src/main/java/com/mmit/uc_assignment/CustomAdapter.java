@@ -37,7 +37,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
 //    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder viewHolder, int i) {
 //
 //    }
-
+    // Defining the behaviour for each item of recycler view maintaing ToDoList
     @Override
     public void onBindViewHolder(final MyViewHolder holder, final int position) {
         // set the data in items

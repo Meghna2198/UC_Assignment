@@ -8,6 +8,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
+//Class for adding a new task in the list
 public class AddActivity extends Activity implements OnClickListener {
 
     MainActivity obj;
@@ -32,7 +33,7 @@ public class AddActivity extends Activity implements OnClickListener {
         dbManager.open();
         addTodoBtn.setOnClickListener(this);
     }
-
+    // OnClicking The add button following function will be called
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
