@@ -15,7 +15,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
   //  public static final String DESC = "description";
 
     // Database Information
-    static final String DB_NAME = "UCA.DB";
+    static final String DB_NAME = "ToDoList.DB";
     // database version
     static final int DB_VERSION = 1;
 
